@@ -1,0 +1,7 @@
+nfl_stats.listing:
+  path: '/nfl-listing'
+  defaults:
+    _controller: '\Drupal\nfl_stats\Controller\NflListing::view'
+    _title: 'NFL Listing'
+  requirements:
+    _permission: 'access content'
